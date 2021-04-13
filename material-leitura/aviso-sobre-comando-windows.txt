@@ -1,0 +1,1 @@
+parar a execução de um container diretamente do terminal com o comando "docker container stop NomeDoContainer"

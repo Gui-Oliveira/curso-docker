@@ -1,0 +1,5 @@
+/*
+comando para buildar a imagem nginx e disponibilizar na porta X e 'conectar' com o path informado
+*/
+
+docker container run -d --name ex-daemon-basic -p 8080:80 -v e:/estudos/dev/conteudo/docker/project/ex-volume/html:/usr/share/nginx/html nginx

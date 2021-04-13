@@ -1,0 +1,11 @@
+docker container --help
+docker image --help
+docker volume --help
+
+docker container start "nomeDoContainer"
+docker container restart "nomeDoContainer"
+docker container stop "nomeDoContainer"
+
+docker container run "nomeDoContainer" = baixa se não tiver local e sempre cria um container novo. 
+
+docker image build -t ex-build-args .
